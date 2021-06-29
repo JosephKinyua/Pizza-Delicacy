@@ -7,3 +7,10 @@ function pizzaDelicacy(type, size, crust, topping) {
 pizzaDelicacy.prototype.firstChoicePizza = function() {
     return this.type + " . Outermost layer is a crust of your choice and topping of your choice";
 };
+
+function Cost(price, count, delivery) {
+    this.price = price;
+    this.count = count;
+    this.delivery = delivery;
+
+};
