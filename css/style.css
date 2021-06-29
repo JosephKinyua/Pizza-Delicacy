@@ -1,0 +1,8 @@
+.background {
+    background-image: url("../images/food2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: rgb(223, 113, 11);
+    opacity: 0.8;
+}
