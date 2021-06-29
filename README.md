@@ -24,7 +24,7 @@ For any query you can reach me vai email kinyuajoseph2014@gmail.com
 
 ## Live link
 ``````
-https://josephkinyua.github.io/Delani-Studio/
+https://josephkinyua.github.io/Pizza-Delicacy/
 ``````
 ### License
 [MIT Licence](https://choosealicense.com/licenses/mit/)
