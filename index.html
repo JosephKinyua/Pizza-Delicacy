@@ -56,7 +56,66 @@
         </div>
         <div class="container">
             <div class="wrap">
+                <form id="myform">
 
+                    <h4>Select pizza and place to be delivered</h4>
+
+                    <div class="form-select">
+                        <label>Select the type of pizza you want:</label>
+                        <select class="form-control" id="type">
+                                <option>American chicken pizza</option>
+                                <option>British beef pizza</option>
+                                <option>Spanish matton pizza</option>
+                                <option>Italian daily pizza</option>
+                                <option>Dutch chicken pizza</option>
+                                <option>Congolese beef pizza</option>
+                            </select>
+                    </div>
+                    <div class="form-select">
+                        <label>Select the size of your pizza:</label>
+                        <select class="form-control" id="size">
+                                <option value="0">Large @ ksh 1100</option>
+                                <option value="1">Medium @ ksh 950</option>
+                                <option value="2">Small @ ksh750</option>
+                            </select>
+                    </div>
+                    <div class="form-select">
+                        <label>Choose your favorite crust:</label>
+                        <select class="form-control" id="crust">
+                                <option value="0">Cripsy @ ksh 100</option>
+                                <option value="1">Stuffed @ ksh 80</option>
+                                <option value="2">Gluten-free ksh 55</option>
+                            </select>
+                    </div>
+                    <div class="form-select">
+                        <label>Choose your favorite topping:</label>
+                        <select class="form-control" id="topping">
+                                <option value="0">red pepper @ ksh 80</option>
+                                <option value="1">black olives @ ksh 60</option>
+                                <option value="2">white onions @ ksh 40</option>
+                            </select>
+                    </div>
+                    <div class="form-select" required>
+                        <label>Number of pizza:</label>
+                        <input type="number" id="num" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-select" required>
+                        <label>option for delivery:</label>
+                        <select class="form-control" id="mode">
+                                <option value="0">pizza delivered @ ksh 250</option>
+                                <option value="1">pick from our cafe</option>
+                            </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary
+                                checkout" id="checkout">Place an
+                                Order</button>
+
+                    </div>
+
+
+                </form>
             </div>
         </div>
     </div>
