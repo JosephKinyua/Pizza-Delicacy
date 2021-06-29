@@ -4,3 +4,6 @@ function pizzaDelicacy(type, size, crust, topping) {
     this.crust = crust;
     this.tops = topping;
 }
+pizzaDelicacy.prototype.firstChoicePizza = function() {
+    return this.type + " . Outermost layer is a crust of your choice and topping of your choice";
+};
