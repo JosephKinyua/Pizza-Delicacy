@@ -14,3 +14,6 @@ function Cost(price, count, delivery) {
     this.delivery = delivery;
 
 };
+Cost.prototype.firstCost = function() {
+    return this.price * this.count + this.delivery;
+};
