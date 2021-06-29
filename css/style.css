@@ -17,3 +17,12 @@
     -o-border-radius: 150px;
     margin-top: 50%;
 }
+
+.pic p {
+    color: blue;
+    width: 40%;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(223, 113, 11);
+    margin-left: 60px;
+    font-size: 25px;
+}
