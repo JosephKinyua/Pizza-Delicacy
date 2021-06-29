@@ -17,3 +17,7 @@ function Cost(price, count, delivery) {
 Cost.prototype.firstCost = function() {
     return this.price * this.count + this.delivery;
 };
+var pizzaPrices = [1100, 900, 750];
+var crustingCost = [100, 80, 55];
+var toppingCost = [80, 60, 40];
+var deliveryCost = [250, 0];
