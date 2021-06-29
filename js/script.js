@@ -44,13 +44,21 @@ $(document).ready(function() {
         //  console.log(pizzaDelivery);
         if (pizzaDelivery === 0) {
             prompt("Enter the place where Your pizza will be delivered.");
-            alert("Thanks for placing an order which is " + myPizza.firstChoicePizza() + ". And total cost of your pizza is ksh " + total2.firstCost());
+            alert("Thanks for choosing " + myPizza.firstChoicePizza() + ". And total cost of your pizza is ksh " + total2.firstCost());
 
         } else if (pizzaDelivery === 1) {
 
-            alert("Thanks for placing order which is " + myPizza.firstChoicePizza() + ". And total cost of your pizza is ksh " + total2.firstCost());
+            alert("Thanks for requesting " + myPizza.firstChoicePizza() + ". And total cost of your pizza is ksh " + total2.firstCost());
 
         }
 
     });
 });
+
+function detailsOfCustomer() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var area = document.getElementById("area").value;
+    alert(name + " " + email + " " + area);
+
+};
